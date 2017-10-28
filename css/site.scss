@@ -72,7 +72,8 @@ body {
     margin-bottom: 50px;
 }
 
-#newitem_area {}
+#newitem_area {
+}
 
 .sp_items {
     display: none;
@@ -115,8 +116,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
-    .otodoke{
-      padding-top: 10px;
+    .otodoke {
+        padding-top: 10px;
     }
 
 
@@ -336,6 +337,9 @@ body {
             .about_text {
                 width: 48%;
             }
+            .btn {
+                margin-left: 0;
+            }
         }
     }
 
@@ -390,6 +394,7 @@ body {
     background-color: $keyColor;
     border-radius: 4px;
     padding: 10px;
+    color: $subColor;
     ul {
         margin-bottom: 0;
         display: flex;
@@ -492,7 +497,7 @@ body {
         .pdn {
             font-weight: bold;
         }
-        .symbol{
+        .symbol {
             font-size: 12px;
             color: $gray_key;
         }
@@ -523,6 +528,7 @@ body {
         width: 200px;
         text-align: center;
         padding: 12px 15px;
+        font-size: 12px;
     }
 }
 
@@ -533,6 +539,7 @@ body {
         text-align: center;
         color: $subColor;
         font-weight: normal;
+        font-size: 12px;
     }
     td {
         border: 1px solid $keyColor;
@@ -629,12 +636,16 @@ body {
         color: $subColor;
         width: 160px;
         text-align: center;
+        font-size: 12px;
+        padding-left: 15px;
         font-weight: normal;
     }
     td {
         border: 1px solid $keyColor;
         color: $subColor;
         width: 420px;
+        font-size: 12px;
+        padding-right: 0;
     }
 }
 
@@ -696,10 +707,12 @@ body {
             th {
                 padding: 10px;
                 text-align: center;
+                font-size: 15px;
             }
             td {
-                padding: 10px;
-                text-align: center;
+                padding: 15px;
+                font-size: 15px;
+                text-align: justify
             }
         }
     }
